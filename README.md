@@ -54,7 +54,7 @@ This list specifies which variables are considered live at explaining terminatio
 ---
 
 ## Project Structure
-    CSE351-TermProject/
+    DeadCodeElimination/
     ├── build/
     │   ├── dce            # Compiled executable
     │   ├── dce.tab.c      # Bison generated parser source
@@ -70,6 +70,7 @@ This list specifies which variables are considered live at explaining terminatio
     │   ├── test2.il       # Sample input (extended cases)
     │   └── test3.il       # Sample input (additional tests)
     ├── out.txt            # Sample output file (optional)
+    ├──Makefile
     ├── README.md
     ├──CSE 351 Term Project - Report.pdf
     ├──LICENSE
