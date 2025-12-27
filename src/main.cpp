@@ -4,7 +4,7 @@
 #include <cstdio>
 #include <set>
 #include <algorithm>
-#include "ir.hpp"
+#include "ir.h"
 
 std::vector<Statement> stmts;
 std::vector<std::string> finalLive;

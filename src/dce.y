@@ -1,9 +1,9 @@
 %code requires {
-#include "ir.hpp"
+#include "ir.h"
 }
 
 %{
-#include "ir.hpp"
+#include "ir.h"
 #include <cstdio>
 #include <cstdlib>
 #include <cstring>

@@ -47,7 +47,7 @@ extern int yydebug;
 /* "%code requires" blocks.  */
 #line 1 "src/dce.y"
 
-#include "ir.hpp"
+#include "ir.h"
 
 #line 53 "build/dce.tab.h"
 

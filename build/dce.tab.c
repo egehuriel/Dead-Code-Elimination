@@ -69,7 +69,7 @@
 /* First part of user prologue.  */
 #line 5 "src/dce.y"
 
-#include "ir.hpp"
+#include "ir.h"
 #include <cstdio>
 #include <cstdlib>
 #include <cstring>

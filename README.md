@@ -78,8 +78,21 @@ This list specifies which variables are considered live at explaining terminatio
 
 
 # Running the Program
-## Example Usage:
-	./build/dce test/test3.il
+## Running All Tests:
+	
+    make run
+    
+## Running Test Individually
+    
+    make run_test1
+    
+    make run_test2
+    
+    make run_test3
+    
+    make run_test4
+    
+    make run_test5
 
 ## Sample Input (test/test2.il)
 	a = b + c;
