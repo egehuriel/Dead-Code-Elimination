@@ -63,17 +63,17 @@ This list specifies which variables are considered live at explaining terminatio
     ├── src/
     │   ├── dce.l          # Lexer specification (Flex)
     │   ├── dce.y          # Parser specification (Bison)
-    │   ├── ir.hpp         # Intermediate Representation (Operand & Statement)
+    │   ├── ir.h           # Intermediate Representation (Operand & Statement)
     │   └── main.cpp       # Driver program and Dead Code Elimination logic
     ├── test/
     │   ├── test1.il       # Sample input (basic DCE case)
     │   ├── test2.il       # Sample input (extended cases)
     │   └── test3.il       # Sample input (additional tests)
     ├── out.txt            # Sample output file (optional)
-    ├──Makefile
+    ├── Makefile
     ├── README.md
-    ├──CSE 351 Term Project - Report.pdf
-    ├──LICENSE
+    ├── CSE 351 Term Project - Report.pdf
+    ├── LICENSE
     └── .gitignore
 
 
